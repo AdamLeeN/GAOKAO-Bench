@@ -36,8 +36,8 @@ score_dict = {
                 'question_num': 0.0,
                 'type': 
                 {
-                    '2010-2022_Math_I_MCQs': {'total_score': 0.0,'correct_score': 0.0, 'question_num': 0.0, 'scoring_rate': 0.0},
-                    '2010-2022_Math_II_MCQs': {'total_score': 0.0,'correct_score': 0.0, 'question_num': 0.0, 'scoring_rate': 0.0},
+                    'gaoshu_math': {'total_score': 0.0,'correct_score': 0.0, 'question_num': 0.0, 'scoring_rate': 0.0},
+                    'gaokao_math': {'total_score': 0.0,'correct_score': 0.0, 'question_num': 0.0, 'scoring_rate': 0.0},
                 }
             }, 
             'Chinese': {
@@ -141,6 +141,7 @@ def obj_score_eval(obj_output_dir: str) -> None:
         
         if 'keyword' in data.keys():
             keyword = data['keyword']
+            print(f"keyword:{keyword}")
         else:
             keyword = data['keywords']
             

@@ -509,12 +509,19 @@ def export_distribute_json(
     
     """
     # Find the JSON file with the specified keyword
+    data = None
+    
     for root, _, files in os.walk(directory):
         for file in files:
+            print(file)
+            print(keyword)
             if file == f'{keyword}.json':
                 filepath = os.path.join(root, file)
                 with codecs.open(filepath, 'r', 'utf-8') as f:
                     data = json.load(f)
+                break
+        if data:
+            break
     
     example_num = len(data['example'])
         

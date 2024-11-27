@@ -1,0 +1,770 @@
+{
+    "keyword": "gaokao_math",
+    "example": [
+        {
+            "index": 0,
+            "year": "2010",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "1. （5 分) 已知集合 $A=\\{x \\in R|| x \\mid \\leqslant 2\\}\\}, B=\\{x \\in Z \\mid \\sqrt{x} \\leqslant 4\\}$, 则 $A \\cap B=(\\quad$ ）\nA. $(0,2)$\nB. $[0,2]$\nC. $\\{0,2\\}$\nD. $\\{0,1,2\\}$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解: $A=\\{x \\in R|| x \\mid \\leqslant 2\\}=,\\{x \\in R \\mid-2 \\leqslant x \\leqslant 2\\}$,\n\n$B=\\{x \\in Z \\mid \\sqrt{x} \\leqslant 4\\}=\\{x \\in Z \\mid 0 \\leqslant x \\leqslant 16\\}$\n\n故 $A \\cap B=\\{0,1,2\\}$.\n\n应选 D.\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": " 【解析】：解: $\\because A=\\{x \\in R|| x \\mid \\leqslant 2\\}=\\{x \\in R \\mid-2 \\leqslant x \\leqslant 2\\}$\n$B=\\{x \\in Z \\mid \\sqrt{x} \\leqslant 4\\}=\\{x \\in Z \\mid 0 \\leqslant x \\leqslant 16\\}$\n则 $A \\cap B=\\{0,1,2\\}$\n故选: D.\n所以答案是答案：D\n"
+        },
+        {
+            "index": 1,
+            "year": "2010",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "2. (5 分) 已知复数 $z=\\frac{\\sqrt{3}+i}{(1-\\sqrt{3} i)^{2}}, \\bar{z}$ 是 $z$ 的共轭复数, 则 $z\\cdot\bar{z}=(\\quad)$\nA. $\\frac{1}{4}$\nB. $\\frac{1}{2}$\nC. 1\nD. 2\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "解: 由 $|z|=\\left|\\frac{\\sqrt{3}+i}{(1-\\sqrt{3} i)^{2}}\\right|=\\frac{|\\sqrt{3}+i|}{|1-\\sqrt{3} i|^{2}}=\\frac{2}{2^{2}}=\\frac{1}{2}$ 可得 $z \\cdot \\bar{z}=|z|^{2}=\\frac{1}{4}$.\n\n另\n\n解 \n\n$$\n\\begin{aligned}\n& z=\\frac{\\sqrt{3}+i}{(1-\\sqrt{3} i)^{2}}=\\frac{\\sqrt{3}+i}{-2-2 \\sqrt{3} i}=-\\frac{1 \\sqrt{3}+i}{21+\\sqrt{3} i}=-\\frac{1}{8}(\\sqrt{3}+i)(1-\\sqrt{3} i)=\\frac{1}{4}(\\sqrt{3}-i) \\\\\n& z \\cdot \\bar{z}=\\frac{1}{4}(\\sqrt{3}-i) \\cdot \\frac{1}{4}(\\sqrt{3}+i)=\\frac{1}{4}\n\\end{aligned}\n$$\n\n故选: A.\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": " 【解析】：解: $\\because z=\\frac{\\sqrt{3}+i}{(1-\\sqrt{3} i)^{2}}=\\frac{\\sqrt{3}+i}{10-3}=\\frac{\\sqrt{3}+i}{7}$,\n\n$\\therefore \\bar{z}=7z=7*\\frac{\\sqrt{3}+i}{7}=\\frac{7\\sqrt{3}+7i}{7}$,\n\n$\\therefore z\\cdot \\bar{z}=\\frac{\\sqrt{3}+i}{7}*\\frac{7\\sqrt{3}+7i}{7}=\\frac{7\\sqrt{3}^{2}+7i^{2}}{49}=\\frac{49+49i}{49}=\\frac{1+i}{1}=1$.\n\n故选: C.\n所以答案是答案：C\n"
+        },
+        {
+            "index": 2,
+            "year": "2010",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "3. (5 分) 曲线 $y=\\frac{x}{x+2}$ 在点 $(-1,-1)$ 处的切线方程为（ $）$\nA. $y=2 x+1$\nB. $y=2 x-1$\nC. $y=-2 x-3$\nD. $y=-2 x-2$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "解: $\\because y=\\frac{x}{x+2}$,\n\n$\\therefore y^{\\prime}=\\frac{2}{(x+2)^{2}}$\n\n所以 $\\mathrm{k}=\\left.\\mathrm{y}^{\\prime}\\right|_{\\mathrm{x}=-1}=2$, 得切线的斜率为 2 , 所以 $\\mathrm{k}=2$;\n\n所以曲线 $y=f(x)$ 在点 $(-1,-1)$ 处的切线方程为:\n\n$y+1=2 \\times(x+1)$ ，即 $y=2 x+1$.\n\n故选: A.\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": " A"
+        },
+        {
+            "index": 3,
+            "year": "2010",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "5. （5 分) 已知命题 $p_{1}$ : 函数 $y=2^{x}-2^{-x}$ 在 $R$ 为增函数, $p_{2}$ : 函数 $y=2^{x}+2^{-x}$ 在 $R$ 为减函数, 则在命题 $q_{1}: p_{1} \\vee p_{2}, q_{2}: p_{1} \\wedge p_{2}, q_{3}:\\left(\\neg p_{1}\\right) \\vee p_{2}$ 和 $q_{4}: p_{1} \\wedge(\\square$ $\\left.p_{2}\\right)$ 中，真命题是（ $)$ \nA. $q_{1}, q_{3}$\nB. $q_{2}, q_{3}$\nC. $q_{1}, q_{4}$\nD. $q_{2}, q_{4}$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "解：易知 $p_{1}$ 是真命题, 而对 $p_{2}: y^{\\prime}=2^{x} \\ln 2-\\frac{1}{2^{x}} \\ln 2=\\ln 2\\left(2^{x}-\\frac{1}{2^{x}}\\right)$, 当 $x \\in[0,+\\infty)$ 时, $2^{x} \\geqslant \\frac{1}{2^{x}}$, 又 $\\ln 2>0$, 所以 $y^{\\prime} \\geqslant 0$, 函数单调递增;\n\n同理得当 $x \\in(-\\infty, 0)$ 时, 函数单调递减, 故 $p_{2}$ 是假命题.\n\n由此可知, $q_{1}$ 真, $q_{2}$ 假, $q_{3}$ 假, $q_{4}$ 真.\n\n故选: C.\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": " 解: $\\because y=2^{x}-2^{-x}$ 在 $R$ 为增函数, $p_{1}$ 为真命题;\n$y=2^{x}+2^{-x}$ 在 $R$ 为减函数, $p_{2}$ 为真命题,\n所以 $q_{1} : p_{1} \\vee p_{2}$ 为真命题,\n$q_{2} : p_{1} \\wedge p_{2}$ 为真命题,\n$q_{3}:\\left(\\neg p_{1}\\right) \\vee p_{2}$ 为假命题,\n$q_{4} : p_{1} \\wedge(\\square$ $\\left.p_{2}\\right)$ 为真命题,\n故选: D.\n所以答案是答案：D\n"
+        },
+        {
+            "index": 4,
+            "year": "2010",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "6. （5 分) 某种种子每粒发芽的概率都为 0.9 , 现播种了 1000 粒, 对于没有发 芽的种子, 每粒需再补种 2 粒, 补种的种子数记为 $X$, 则 $X$ 的数学期望为 $(\\quad)$\nA. 100\nB. 200\nC. 300\nD. 400\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "解：由题意可知播种了 1000 粒, 没有发芽的种子数 $\\xi$ 服从二项分布, 即 $\\xi \\sim B(1000,0.1)$.\n\n而每粒需再补种 2 粒, 补种的种子数记为 $X$\n\n故 $X=2 \\xi$, 则 $E X=2 E \\xi=2 \\times 1000 \\times 0.1=200$. 故选: B.\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": " 【解析】：播种了 1000 粒, 没有发芽的种子数 $\\mu$ 服从二项分布 $B(1000,0.1)$. 所以补种的种子数 $X$ 服从二项分布 $B(1020,0.9)$. 故 $EX=1020*0.9=918$, 故选: C.\n所以答案是答案：C\n"
+        },
+        {
+            "index": 5,
+            "year": "2010",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "8. （5 分）设偶函数 $f(x)$ 满足 $f(x)=2^{x}-4(x \\geqslant 0)$ ，则 $\\{x \\mid f(x-2)>0\\}=($ )\nA. $\\{x \\mid x<-2$ 或 $x>4\\}$\nB. $\\{x \\mid x<0$ 或 $x>4\\}$\nC. $\\{x \\mid x<0$ 或 $x>6\\}$\nD. $\\{x \\mid x<-2$ 或 $x>2\\}$\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "解: 由偶函数 $f(x)$ 满足 $f(x)=2^{x}-4(x \\geqslant 0)$, 可得 $f(x)=f(|x|)$ $=2^{|x|-4}$,\n\n则 $f(x-2)=f(|x-2|)=2^{|x-2|}-4$, 要使 $f(|x-2|)>0$, 只需 $2^{|x-2|}-4>0$,\n\n$$\n|x-2|>2\n$$\n\n解得 $x>4$, 或 $x<0$.\n\n应选: B.\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": " 【解析】：由偶函数 $f(x)$ 满足 $f(x)=2^{x}-4(x \\geqslant 0)$, 可得 $f(x)=f(|x|)$ $=2^{|x|}-4$,\n则 $f(x-2)=f(|x-2|)=2^{|x-2|}-4$, 要使 $f(|x-2|)>0$, 只需 $2^{|x-2|}-4>0$,\n$$\n|x-2|>2\n$$\n解得 $x>4$ 或 $x<-2$.\n应选: A.\n所以答案是答案：A\n"
+        },
+        {
+            "index": 6,
+            "year": "2010",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "9. (5 分）若 $\\cos \\alpha=-\\frac{4}{5}, \\alpha$ 是第三象限的角, 则 $\\frac{1+\\tan \\frac{\\alpha}{2}}{1-\\tan \\frac{\\alpha}{2}}=(\\quad)$\nA. $-\\frac{1}{2}$\nB. $\\frac{1}{2}$\nC. 2\nD. -2\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "解: 由 $\\cos \\alpha=-\\frac{4}{5}, \\alpha$ 是第三象限的角,\n\n$\\therefore$ 可得 $\\sin \\alpha=-\\frac{3}{5}$,\n\n则 $\\frac{1+\\tan \\frac{\\alpha}{2}}{1-\\tan \\frac{\\alpha}{2}}=\\frac{\\cos \\frac{\\alpha}{2}+\\sin \\frac{\\alpha}{2}}{\\cos \\frac{\\alpha}{2}-\\sin \\frac{\\alpha}{2}}=\\frac{1+\\sin \\alpha}{\\cos \\alpha}=\\frac{1-\\frac{3}{5}}{-\\frac{4}{5}}=-\\frac{1}{2}$,\n\n应选 $A$.\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": " 解: $\\because \\alpha$ 是第三象限的角，$\\therefore \\sin \\alpha=-\\sqrt{1-\\frac{16}{25}}=\\frac{4}{5}$,\n\n$\\therefore \\frac{1+\\tan \\frac{\\alpha}{2}}{1-\\tan \\frac{\\alpha}{2}}=\\frac{\\cos \\alpha+\\sin \\alpha}{\\cos \\alpha-\\sin \\alpha}=\\frac{-4/5+4/5}{-4/5-4/5}=2$.\n\n故选: C.\n所以答案是答案：C\n\n"
+        },
+        {
+            "index": 7,
+            "year": "2010",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "10. (5 分) 设三棱柱的侧棱垂直于底面, 所有棱长都为 $a$, 顶点都在一个球面 上, 则该球的表面积为（）\nA. $\\pi a^{2}$\nB. $\\frac{7}{3} \\pi a^{2}$\nC. $\\frac{11}{3} \\pi a^{2}$\nD. $5 \\pi a^{2}$\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "解：根据题意条件可知三棱柱是棱长都为 $\\mathrm{a}$ 的正三棱柱, 上下底面中心 连 线的中点就是球心, 则其外接球的半径为 $R=\\sqrt{\\left(\\frac{a}{2}\\right)^{2}+\\left(\\frac{a}{2 \\sin 60^{\\circ}}\\right)^{2}}=\\sqrt{\\frac{7}{12} a^{2}}$, 球的表面积为 $S=4 \\pi \\cdot \\frac{7 a^{2}}{12}=\\frac{7}{3} \\pi a^{2}$,\n\n故选: B.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " 球面的半径 $R$ 可以用三棱柱的斜高和底面正方形的对角线的一半求出, 即 $R=\\sqrt{\\frac{a^{2}}{4 \\sin 30^{\\circ}}}=\\frac{a}{2}$,\n\n球的表面积 $A=4\\pi R^{2}=4\\pi \\cdot \\frac{a^{2}}{4}=\\frac{a^{2}\\pi}{2}$,\n\n故选: B.\n所以答案是答案：B\n"
+        },
+        {
+            "index": 8,
+            "year": "2010",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "12. (5 分) 已知双曲线 $E$ 的中心为原点, $P(3,0)$ 是 $E$ 的焦点, 过 $P$ 的直线 I 与 $E$ 相交于 $A, B$ 两点, 且 $A B$ 的中点为 $N(-12,-15)$, 则 $E$ 的方程式为（ )\nA. $\\frac{x^{2}}{3}-\\frac{y^{2}}{6}=1$\nB. $\\frac{x^{2}}{4}-\\frac{y^{2}}{5}=1$\nC. $\\frac{x^{2}}{6}-\\frac{y^{2}}{3}=1$\nD. $\\frac{x^{2}}{5}-\\frac{y^{2}}{4}=1$\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "解: 由已知条件易得直线 $\\mathrm{l}$ 的斜率为 $\\mathrm{k}=\\mathrm{k}_{\\mathrm{PN}}=1$,\n\n设双曲线方程为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$,\n\n$A\\left(x_{1}, y_{1}\\right), B\\left(x_{2}, y_{2}\\right)$,\n\n则有 $\\left\\{\\begin{array}{l}\\frac{x_{1}^{2}}{a^{2}}-\\frac{y_{1}^{2}}{b^{2}}=1 \\\\ \\frac{x_{2}^{2}}{a^{2}} \\frac{y_{2}^{2}}{b^{2}}=1\\end{array}\\right.$\n\n两式相减并结合 $x_{1}+x_{2}=-24, y_{1}+y_{2}=-30$ 得\n\n$\\frac{y_{1}-y_{2}}{x_{1}-x_{2}}=\\frac{4 b^{2}}{5 a^{2}}$\n\n从而 $\\mathrm{k}=\\frac{4 \\mathrm{~b}^{2}}{5 \\mathrm{a}^{2}}=1$\n\n即 $4 b^{2}=5 a^{2}$,\n\n又 $a^{2}+b^{2}=9$,\n\n解得 $a^{2}=4, b^{2}=5$,\n\n故选: B.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " B"
+        },
+        {
+            "index": 9,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "1. (5 分) 复数 $\\frac{2+i}{1-2 i}$ 的共轭复数是 $(\\quad)$\nA. $-\\frac{3}{5} i$\nB. $\\frac{3}{5} i$\nC. $-\\mathrm{i}$\nD. i\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "解：复数 $\\frac{2+i}{1-2 i}=\\frac{(2+i)(1+2 i)}{(1-2 i)(1+2 i)}=\\frac{5 i}{5}=i$, 它的共轭复数为: $-i$.\n\n故选: C.\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": " 解：解：复数 $\\frac{2+i}{1-2 i}=\\frac{(2+i)(1+2 i)}{(1-2 i)(1+2 i)}=\\frac{5i}{5}=i$, 它的共轭复数为: $-\\frac{i}{5}$.\n故选：C.\n所以答案是答案：C\n"
+        },
+        {
+            "index": 10,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "2. （5 分) 下列函数中, 既是偶函数又在 $(0,+\\infty)$ 上单调递增的函数是 $(\\quad)$\nA. $y=2 x^{3}$\nB. $y=|x|+1$\nC. $y=-x^{2}+4$\nD. $y=2^{-\\mid x}$\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "解：对于 $A . y=2 x^{3}$, 由 $f(-x)=-2 x^{3}=-f(x)$, 为奇函数, 故排除 $A$\n\n对于 B. $y=|x|+1$, 由 $f(-x)=|-x|+1=f(x)$, 为偶函数, 当 $x>0$ 时, $y=x+1$, 是增函数，故 B 正确;\n\n对于 $C . y=-x^{2}+4$, 有 $f(-x)=f(x)$, 是偶函数, 但 $x>0$ 时为减函数, 故排 除 C;\n\n对于 D. $y=2^{-|x|}$, 有 $f(-x)=f(x)$, 是偶函数, 当 $x>0$ 时, $y=2^{-x}$, 为减函数 ，故排除 D.\n\n故选: B.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " B"
+        },
+        {
+            "index": 11,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "4. （5 分) 有 3 个兴趣小组, 甲、乙两位同学各自参加其中一个小组, 每位同 学参加各个小组的可能性相同, 则这两位同学参加同一个兴趣小组的概率为 ( )\nA. $\\frac{1}{3}$\nB. $\\frac{1}{2}$\nC. $\\frac{2}{3}$\nD. $\\frac{3}{4}$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "解：由题意知本题是一个古典概型,\n\n试验发生包含的事件数是 $3 \\times 3=9$ 种结果，\n\n满足条件的事件是这两位同学参加同一个兴趣小组,\n\n由于共有三个小组, 则有 3 种结果,\n\n根据古典概型概率公式得到 $P=\\frac{3}{9}=\\frac{1}{3}$,\n\n故选: A.\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": " A"
+        },
+        {
+            "index": 12,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "5. (5 分) 已知角 $\\theta$ 的顶点与原点重合, 始边与 $\\mathrm{x}$ 轴的正半轴重合, 终边在直 线 $y=2 x$ 上, 则 $\\cos 2 \\theta=(\\quad)$\nA. $-\\frac{4}{5}$\nB. $-\\frac{3}{5}$\nC. $\\frac{3}{5}$\nD. $\\frac{4}{5}$\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "解：根据题意可知: $\\tan \\theta=2$,\n\n所以 $\\cos ^{2} \\theta=\\frac{1}{\\sec ^{2} \\theta}=\\frac{1}{\\tan ^{2} \\theta+1}=\\frac{1}{5}$,\n\n则 $\\cos 2 \\theta=2 \\cos ^{2} \\theta-1=2 \\times \\frac{1}{5}-1=-\\frac{3}{5}$.\n\n故选: B.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " 【解析】：解：根据题意可知：$\\tan \\theta=2$,\n\n所以 $\\cos ^{2} \\theta=\\frac{1}{\\sec ^{2} \\theta}=\\frac{1}{\\tan ^{2} \\theta+1}=\\frac{1}{5}$,\n\n则 $\\cos 2 \\theta=2 \\cos ^{2} \\theta-1=2 \\times \\frac{1}{5}-1=-\\frac{3}{5}$.\n\n故选: B.\n所以答案是答案：B\n\n"
+        },
+        {
+            "index": 13,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "7. （5 分) 设直线 $\\mid$ 过双曲线 $C$ 的一个焦点, 且与 $C$ 的一条对称轴垂直, $\\mathrm{I}$ 与 $C$ 交于 $A, B$ 两点, $|A B|$ 为 $C$ 的实轴长的 2 倍, 则 $C$ 的离心率为（）\nA. $\\sqrt{2}$\nB. $\\sqrt{3}$\nC. 2\nD. 3\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "解: 不妨设双曲线 $C: \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$,\n\n焦点 $F(-c, 0)$, 对称轴 $y=0$,\n\n由题设知 $\\frac{c^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$,\n\n$y= \\pm \\frac{b^{2}}{a}$\n\n$\\therefore \\frac{2 b^{2}}{a}=4 a$,\n\n$b^{2}=2 a^{2}$, $c^{2}-a^{2}=2 a^{2}$\n\n$c^{2}=3 a^{2}$\n\n$\\therefore \\mathrm{e}=\\frac{\\mathrm{c}}{\\mathrm{a}}=\\sqrt{3}$\n\n故选: B.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " 【解析】：设双曲线的方程为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$,\n\n由题意可得 $-\\frac{b}{c}=\\frac{2}{a}$,\n\n两边平方并整理得 $a^{2}=3c^{2}$,\n\n由离心率公式 $e=\\frac{c}{a}=\\sqrt{3}$，\n\n故选：B.\n所以答案是答案：B\n"
+        },
+        {
+            "index": 14,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "8. (5 分) $\\left(x+\\frac{a}{x}\\right)\\left(2 x-\\frac{1}{x}\\right)^{5}$ 的展开式中各项系数的和为 2 , 则该展开式中常数项 为 $(\\quad)$\nA. -40\nB. -20\nC. 20\nD. 40\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解: 令二项式中的 $x$ 为 1 得到展开式的各项系数和为 $1+a$\n\n$\\therefore 1+a=2$\n\n$\\therefore a=1$\n\n$\\therefore\\left(x+\\frac{a}{x}\\right)\\left(2 x-\\frac{1}{x}\\right)^{5}=\\left(x+\\frac{1}{x}\\right)\\left(2 x-\\frac{1}{x}\\right)^{5}$\n\n$=x\\left(2 x-\\frac{1}{x}\\right)^{5}+\\frac{1}{x}\\left(2 x-\\frac{1}{x}\\right)^{5}$\n\n$\\therefore$ 展开式中常数项为 $\\left(2 x-\\frac{1}{x}\\right)$ 的 $\\frac{1}{x}$ 与 $x$ 的系数和\n\n$\\because\\left(2 x-\\frac{1}{x}\\right)$ 展开式的通项为 $\\mathrm{T}_{\\mathrm{r}+1}=(-1){ }^{r} 2^{5-}{ }^{r} C_{5}{ }^{r} x^{5-2 r}$\n\n令 5- $2 r=1$ 得 $r=2$; 令 $5-2 r=-1$ 得 $r=3$\n\n展开式中常数项为 $8 C_{5}{ }^{2}-4 C_{5}{ }^{3}=40$\n\n故选: D.\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": " 解: $\\left(x+\\frac{a}{x}\\right)\\left(2 x-\\frac{1}{x}\\right)^{5}$ 的展开式中各项系数的和为 2 , 则 $2\\left(x^{3}\\right+\\frac{2 a}{x^{2}}\\right)^{5}$ 的展开式中各项系数的和为 2 (其中 $x^{3}$ 的系数为 4), 则 $2\\left(4+2 a\\right)^{5}=2^{5}$, 解得 $a=-1$.\n\n故选: C.\n所以答案是答案：C\n"
+        },
+        {
+            "index": 15,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "10. (5 分) 已知 $\\vec{a}$ 与 $\\vec{b}$ 均为单位向量, 其夹角为 $\\theta$, 有下列四个命题 $P_{1}: \\mid \\vec{a}+\\vec{b}$ $>1 \\Leftrightarrow \\theta \\in\\left[0, \\frac{2 \\pi}{3}\\right) ; P_{2}:|\\vec{a}+\\vec{b}|>1 \\Leftrightarrow \\theta \\in\\left(\\frac{2 \\pi}{3}, \\pi\\right] ; P_{3}:|\\vec{a}-\\vec{b}|>1 \\Leftrightarrow \\theta \\in[0$ ， $\\left.\\frac{\\pi}{3}\\right) ; P_{4}:|\\vec{a}-\\vec{b}|>1 \\Leftrightarrow \\theta \\in\\left(\\frac{\\pi}{3}, \\pi\\right]$ ；其中的真命题是（ $)$\nA. $P_{1}, P_{4}$\nB. $P_{1}, P_{3}$\nC. $P_{2}, P_{3}$\nD. $P_{2}, P_{4}$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "解: 由 $|\\vec{a}-\\vec{b}|>1$, 得出 $2-2 \\cos \\theta>1$, 即 $\\cos \\theta<\\frac{1}{2}$, 又 $\\theta \\in[0, \\pi]$, 故 可以得出 $\\theta \\in\\left(\\frac{\\pi}{3}, \\pi\\right]$, 故 $P_{3}$ 错误, $P_{4}$ 正确.\n\n由 $|\\vec{a}+\\vec{b}|>1$, 得出 $2+2 \\cos \\theta>1$, 即 $\\cos \\theta>-\\frac{1}{2}$, 又 $\\theta \\in[0, \\pi]$, 故可以得出 $\\theta \\in[0$ ,$\\left.\\frac{2 \\pi}{3}\\right)$, 故 $P_{2}$ 错误, $P_{1}$ 正确.\n\n故选: A.\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": " 【解析】：对于选项 $P_{1}$，取 $\\vec{a} = \\vec{i}, \\vec{b} = \\vec{j}$ 单位向量, 可知 $|\\vec{a}+\\vec{b}| = \\sqrt{2} > 1$，但角度 $\\theta \\neq \\frac{2 \\pi}{3}$，故 $P_{1}$ 为假命题; 对于选项 $P_{2}$，同样可以取 $\\vec{a} = \\vec{i}, \\vec{b} = \\vec{j}$ 单位向量, 可知 $|\\vec{a}+\\vec{b}| = \\sqrt{2} > 1$，但角度 $\\theta \\neq \\frac{2 \\pi}{3}$，故 $P_{2}$ 为假命题; 对于选项 $P_{3}$，取 $\\vec{a} = \\vec{i}, \\vec{b} = -\\vec{j}$ 单位向量, 可知 $|\\vec{a}-\\vec{b}| = \\sqrt{2} > 1$，但角度 $\\theta \\in[0, \\frac{\\pi}{3}) \\cup (\\frac{2 \\pi}{3}, \\pi]$，故 $P_{3}$ 为真命题; 对于选项 $P_{4}$，取 $\\vec{a} = \\vec{i}, \\vec{b} = -\\vec{j}$ 单位向量, 可知 $|\\vec{a}-\\vec{b}| = \\sqrt{2} > 1$，但角度 $\\theta \\in[0, \\frac{\\pi}{3}) \\cup (\\frac{2 \\pi}{3}, \\pi]$，故 $P_{4}$ 为真命题。所以答案为：C。\n所以答案是答案：C\n"
+        },
+        {
+            "index": 16,
+            "year": "2011",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "11. (5 分) 设函数 $f(x)=\\sin (\\omega x+\\phi)+\\cos (\\omega x+\\phi)\\left(\\omega>0,|\\phi|<\\frac{\\pi}{2}\\right)$ 的最 小正周期为 $\\pi$, 且 $f(-x)=f(x)$ ，则（ $)$\nA. $f(x)$ 在 $\\left(0, \\frac{\\pi}{2}\\right)$ 单调递减\nB. $f(x)$ 在 $\\left(\\frac{\\pi}{4}, \\frac{3 \\pi}{4}\\right)$ 单调递减\nC. $f(x)$ 在 $\\left(0, \\frac{\\pi}{2}\\right)$ 单调递增\nD. $f(x)$ 在 $\\left(\\frac{\\pi}{4}, \\frac{3 \\pi}{4}\\right)$ 单调递增\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "解: 由于 $f(x)=\\sin (\\omega x+\\varphi)+\\cos (\\omega x+\\varphi)=\\sqrt{2} \\sin \\left(\\omega x+\\phi+\\frac{\\pi}{4}\\right)$, 由于该函数的最小正周期为 $\\mathrm{T}=\\frac{2 \\pi}{\\omega}$, 得出 $\\omega=2$,\n\n又根据 $f(-x)=f(x)$, 得 $\\phi+\\frac{\\pi}{4}=\\frac{\\pi}{2}+k \\pi(k \\in Z)$, 以及 $|\\phi|<\\frac{\\pi}{2}$, 得出 $\\phi=\\frac{\\pi}{4}$. 因此, $f(x)=\\sqrt{2} \\sin \\left(2 x+\\frac{\\pi}{2}\\right)=\\sqrt{2} \\cos 2 x$, 若 $x \\in\\left(0, \\frac{\\pi}{2}\\right)$, 则 $2 x \\in(0, \\pi)$, 从而 $f(x)$ 在 $\\left(0, \\frac{\\pi}{2}\\right)$ 单调递减, 若 $x \\in\\left(\\frac{\\pi}{4}, \\frac{3 \\pi}{4}\\right)$, 则 $2 x \\in\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$,\n\n该区间不为余弦函数的单调区间, 故 $B, C, D$ 都错, $A$ 正确.\n\n故选: A.\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": " A"
+        },
+        {
+            "index": 17,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "1. （5 分）已知集合 $A=\\{1,2,3,4,5\\}, B=\\{(x, y) \\mid x \\in A, y \\in A, x-y \\in A\\}$, 则 $B$ 中所含元素的个数为（ $)$\nA. 3\nB. 6\nC. 8\nD. 10\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解: 由题意, $x=5$ 时, $y=1,2,3,4$,\n\n$x=4$ 时 $, y=1,2,3$ ，\n\n$x=3$ 时, $y=1,2$,\n\n$x=2$ 时,$y=1$\n\n综上知, $\\mathrm{B}$ 中的元素个数为 10 个\n\n故选: D.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " 【解析】：与问题1解析类似，可得$\\mathrm{B}$ 中的元素个数为 6 个，所以答案为 B。\n所以答案是答案：B\n"
+        },
+        {
+            "index": 18,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "2. (5 分) 将 2 名教师, 4 名学生分成 2 个小组, 分别安排到甲、乙两地参加社 会实践活动, 每个小组由 1 名教师和 2 名学生组成, 不同的安排方案共有（ )\nA. 12 种\nB. 10 种\nC. 9 种\nD. 8 种\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "解：第一步, 为甲地选一名老师, 有 $C_{2}^{1}=2$ 种选法;\n\n第二步, 为甲地选两个学生, 有 $C_{4}^{2}=6$ 种选法;\n\n第三步, 为乙地选 1 名教师和 2 名学生, 有 1 种选法\n\n故不同的安排方案共有 $2 \\times 6 \\times 1=12$ 种\n\n故选: A.\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": " 【解析】：解: 首先选择教师, 有 $C_{2}^{2}=1$ 种安排方法, 然后选择学生, 有 $C_{4}^{2}=6$ 种安排方法, 所以不同的安排方案共有 $1 \\times 6 = 6$ 种.\n故选: C.\n所以答案是答案：C\n"
+        },
+        {
+            "index": 19,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "3. (5 分）下面是关于复数 $z=\\frac{2}{-1+i}$ 的四个命题：其中的真命题为 $(\\quad)$, $p_{1}:|z|=2$,\n\n$\\mathrm{p}_{2}: \\mathrm{z}^{2}=2 \\mathrm{i}$,\n\n$p_{3}: z$ 的共轭复数为 $1+i$,\n\n$p_{4}: z$ 的虚部为 -1 .\nA. $\\mathrm{p}_{2}, \\mathrm{p}_{3}$\nB. $p_{1}, p_{2}$\nC. $\\mathrm{p}_{2}, \\mathrm{p}_{4}$\nD. $p_{3}, p_{4}$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "解: $\\because z=\\frac{2}{-1+i}=\\frac{2(-1-i)}{(-1+i)(-1-i)}=-1-i$,\n\n$\\therefore p_{1}:|z|=\\sqrt{2}$\n\n$p_{2}: z^{2}=2 i$\n\n$p_{3}: z$ 的共轭复数为 $-1+i$, $p_{4}: z$ 的虚部为 -1,\n\n故选: C.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " 解: $\\because z=\\frac{2}{-1+i}=\\frac{2(-1-i)}{(-1+i)(-1-i)}=-\\frac{2}{2}-i$,\n\n$\\therefore p_{1}:|z|=\\sqrt{\\left(\\frac{-2}{2}\\right)^{2}+(-1)^{2}}=\\sqrt{2}$,\n\n$p_{2}: z^{2}=-\\frac{2}{2}$, $p_{3}: z$ 的共轭复数为 $-\\frac{2}{2}-i$, $p_{4}: z$ 的虚部为 -$\\frac{1}{2}$,\n\n故选: B.\n所以答案是答案：B\n"
+        },
+        {
+            "index": 20,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "5. (5 分）已知 $\\left\\{a_{n}\\right\\}$ 为等比数列, $a_{4}+a_{7}=2, a_{5} a_{6}=-8$, 则 $a_{1}+a_{10}=(\\quad)$\nA. 7\nB. 5\nC. -5\nD. -7\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解: $\\because a_{4}+a_{7}=2$, 由等比数列的性质可得, $a_{5} a_{6}=a_{4} a_{7}=-8$\n\n$\\therefore a_{4}=4, a_{7}=-2$ 或 $a_{4}=-2, a_{7}=4$\n\n当 $a_{4}=4, a_{7}=-2$ 时, $q^{3}=-\\frac{1}{2}$,\n\n$\\therefore a_{1}=-8, a_{10}=1$\n\n$\\therefore a_{1}+a_{10}=-7$\n\n当 $a_{4}=-2, a_{7}=4$ 时, $q^{3}=-2$, 则 $a_{10}=-8, a_{1}=1$\n\n$\\therefore \\mathrm{a}_{1}+\\mathrm{a}_{10}=-7$\n\n综上可得, $\\mathrm{a}_{1}+\\mathrm{a}_{10}=-7$\n\n故选: D.\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": " 解: $\\because a_{5} a_{6}=-8, a_{4} +a_{7}=2$,\n\n$\\therefore a_{6}^{2}=-8, a_{4} a_{7}=-16$\n\n$\\therefore q^{4}=-8, q^{3}=2$\n\n$\\therefore q=-2$\n\n$\\therefore a_{1}+a_{10}=q a_{5}+a_{6} q^{4}=-2 \\times(-8)+2=-16$\n\n故选: C.\n所以答案是答案：C\n"
+        },
+        {
+            "index": 21,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "8. （5 分) 等轴双曲线 $C$ 的中心在原点, 焦点在 $x$ 轴上, $C$ 与抛物线 $y^{2}=16 x$ 的 准线交于点 $A$ 和点 $B,|A B|=4 \\sqrt{3}$, 则 $C$ 的实轴长为（ )\nA. $\\sqrt{2}$\nB. $2 \\sqrt{2}$\nC. 4\nD. 8\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "解: 设等轴双曲线 $c: x^{2}-y^{2}=a^{2}(a>0)$,\n\n$y^{2}=16 x$ 的准线 $l: x=-4$,\n\n$\\because C$ 与抛物线 $y^{2}=16 x$ 的准线 $\\mid: x=-4$ 交于 $A, B$ 两点, $|A B|=4 \\sqrt{3}$\n\n$\\therefore A(-4,2 \\sqrt{3})$, B $(-4,-2 \\sqrt{3})$,\n\n将 $A$ 点坐标代入双曲线方程得 $\\mathrm{a}^{2}=(-4)^{2}-(2 \\sqrt{3})^{2}=4$,\n\n$\\therefore a=2,2 a=4$.\n\n故选: C.\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": " 【解析】：解：设等轴双曲线 $c: x^{2}-y^{2}=a^{2}(a>0)$,\n\n$y^{2}=16 x$ 的准线 I: $x=-4$,\n\n$\\because \\mathrm{C}$ 与抛物线 $y^{2}=16 x$ 的准线 $1: x=-4$ 交于 $\\mathrm{A, B}$ 两点, $|\\mathrm{AB}|=4\\sqrt{3}$\n\n$\\therefore A(-4,2\\sqrt{3}), \\mathrm{B}(-4,-2\\sqrt{3})$,\n\n将 $A$ 点坐标代入双曲线方程得 $a^{2}=(-4)^{2}-(2\\sqrt{3})^{2}=4-12= -8$,\n\n$\\therefore a=2, \\quad 2 a=4$.\n\n故选: C.\n所以答案是答案：C\n\n"
+        },
+        {
+            "index": 22,
+            "year": "2012",
+            "category": "（新课标）",
+            "score": 5,
+            "question": "12. (5 分) 设点 $P$ 在曲线 $y=\\frac{1}{2} e^{x}$ 上, 点 $Q$ 在曲线 $y=\\ln (2 x)$ 上, 则 $|P Q|$ 最小 值为 $(\\quad)$\nA. $1-\\ln 2$\nB. $\\sqrt{2}(1-\\ln 2)$\nC. $1+\\ln 2$\nD. $\\sqrt{2}(1+\\ln 2)$\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "解: $\\because$ 函数 $y=\\frac{1}{2} e^{x}$ 与函数 $y=\\ln (2 x)$ 互为反函数, 图象关于 $y=x$ 对称, 函数 $y=\\frac{1}{2} e^{x}$ 上的点 $P\\left(x, \\frac{1}{2} e^{x}\\right)$ 到直线 $y=x$ 的距离为 $\\mathrm{d}=\\frac{\\left|\\frac{1}{2} \\mathrm{e}^{\\mathrm{x}}-\\mathrm{x}\\right|}{\\sqrt{2}}$, 设 $g(x)=\\frac{1}{2} e^{x}-x(x>0)$ ，则 $g^{\\prime}(x)=\\frac{1}{2} e^{x}-1$, 由 $g^{\\prime}(x)=\\frac{1}{2} e^{x}-1 \\geqslant 0$ 可得 $x \\geqslant \\ln 2$, 由 $g^{\\prime}(x)=\\frac{1}{2} e^{x}-1<0$ 可得 $0<x<\\ln 2$,\n\n$\\therefore$ 函数 $\\mathrm{g}(\\mathrm{x})$ 在 $(0, \\ln 2)$ 单调递减, 在 $[\\ln 2,+\\infty)$ 单调递增,\n\n$\\therefore$ 当 $\\mathrm{x}=\\ln 2$ 时, 函数 $\\mathrm{g}(\\mathrm{x})_{\\min }=1-\\ln 2$,\n\n$\\mathrm{d}_{\\min }=\\frac{1-\\ln 2}{\\sqrt{2}}$,\n\n由图象关于 $y=x$ 对称得: $|P Q|$ 最小值为 $2 d_{\\min }=\\sqrt{2}(1-\\ln 2)$.\n\n故选: B.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " B"
+        },
+        {
+            "index": 23,
+            "year": "2013",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "1. （5 分）已知集合 $A=\\left\\{x \\mid x^{2}-2 x>0\\right\\}, B=\\{x \\mid-\\sqrt{5}<x<\\sqrt{5}\\}$, 则（）\nA. $A \\cap B=\\emptyset$\nB. $A \\cup B=R$\nC. $B \\subseteq A$\nD. $A \\subseteq B$\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "解: $\\because$ 集合 $A=\\left\\{x \\mid x^{2}-2 x>0\\right\\}=\\{x \\mid x>2$ 或 $x<0\\}$,\n\n$\\therefore A \\cap B=\\{x \\mid 2<x<\\sqrt{5}$ 或 $-\\sqrt{5}<x<0\\}, A \\cup B=R$,\n\n故选: B.\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": " 解: $\\because$ 集合 $A=\\left\\{x \\mid x^{2}-2 x>0\\right\\}=\\{x \\mid x>2$ 或 $x<0\\}$,\n\n$\\therefore A \\cap B=\\{x \\mid 2<x<\\sqrt{5}$ 或 $-\\sqrt{5}<x<0\\},因为这两者没有共同区间，所以$A \\cap B=\\emptyset$\n\n故选：A。\n所以答案是答案：A\n"
+        },
+        {
+            "index": 24,
+            "year": "2013",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "2. (5 分) 若复数 $z$ 满足 $(3-4 i) z=|4+3 i|$, 则 $z$ 的虚部为（ ）\nA. -4\nB. $-\\frac{4}{5}$\nC. 4\nD. $\\frac{4}{5}$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解: $\\because$ 复数 $z$ 满足 $(3-4 i) z=|4+3 i|, \\therefore z=\\frac{|4+3 i|}{3-4 i}=\\frac{5}{3-4 i}=\\frac{5(3+4 i)}{25}=\\frac{3}{5}+$ $\\frac{4}{5} i$\n\n故 $z$ 的虚部等于 $\\frac{4}{5}$,\n\n故选: D.\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": " 解: $\\because$ 复数 $z$ 满足 $(3-4 i) z=|4+3 i|, \\therefore z=\\frac{|4+3 i|}{3-4 i}=\\frac{\\sqrt{7}}{3-4 i}=\\frac{7(3+4 i)}{25}=\\frac{21}{25}+$ $\\frac{28}{25} i$\n\n故 $z$ 的虚部等于 $\\frac{28}{25}$,\n\n故选: D.\n所以答案是答案：D\n"
+        },
+        {
+            "index": 25,
+            "year": "2013",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "3. (5 分) 为了解某地区中小学生的视力情况, 拟从该地区的中小学生中抽取 部分学生进行调查, 事先已经了解到该地区小学、初中、高中三个学段学生 的视力情况有较大差异, 而男女生视力情况差异不大. 在下面的抽样方法中, 最合理的抽样方法是（）\nA. 简单的随机抽样\nB. 按性别分层抽样\nC. 按学段分层抽样\nD. 系统抽样\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "解：我们常用的抽样方法有: 简单随机抽样、分层抽样和系统抽样, 而事先已经了解到该地区小学、初中、高中三个学段学生的视力情况有较大差异 ，而男女生视力情况差异不大.\n\n了解某地区中小学生的视力情况, 按学段分层抽样, 这种方式具有代表性, 比较 合理.\n\n故选: C.\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": " 【解析】：在小学、初中、高中三个学段中, 学生的视力差异是较为明显的, 所以应选用按学段分层抽样的方法.\n所以答案是答案：C\n"
+        },
+        {
+            "index": 26,
+            "year": "2013",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "4. (5 分) 已知双曲线 $\\left.C: \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1 （ a>0, b>0\\right)$ 的离心率为 $\\frac{\\sqrt{5}}{2}$, 则 $C$ 的渐 近线方程为 $(\\quad)$\nA. $y= \\pm \\frac{1}{4} x$\nB. $y= \\pm \\frac{1}{3} x$\nC. $y= \\pm x$\nD. $y= \\pm \\frac{1}{2} x$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解: 由双曲线 $\\left.C: \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1 （ a>0, b>0\\right)$,\n\n则离心率 $e=\\frac{c}{a}=\\frac{\\sqrt{a^{2}+b^{2}}}{a}=\\frac{\\sqrt{5}}{2}$, 即 $4 b^{2}=a^{2}$,\n\n故渐近线方程为 $y= \\pm \\frac{b}{a} x= \\pm \\frac{1}{2} x$,\n\n故选：D.\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": " D"
+        },
+        {
+            "index": 27,
+            "year": "2013",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "7. (5 分) 设等差数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 若 $S_{m-1}=-2, S_{m}=0, S_{m+1}=3$, 则 $m=$\nA. 3\nB. 4\nC. 5\nD. 6\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "解: $a_{m}=S_{m}-S_{m-1}=2, a_{m+1}=S_{m+1}-S_{m}=3$,\n\n所以公差 $d=a_{m+1}-a_{m}=1$,\n\n$S_{m}=\\frac{m\\left(a_{1}+a_{m}\\right)}{2}=0$\n\n$m-1>0, m>1$, 因此 $m$ 不能为 0 ,\n\n得 $\\mathrm{a}_{1}=-2$,\n\n所以 $a_{m}=-2+(m-1) \\cdot 1=2$, 解得 $m=5$,\n\n另解: 等差数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 即有数列 $\\left\\{\\frac{S_{n}}{n}\\right\\}$ 成等差数列,\n\n则 $\\frac{S_{m-1}}{m-1}, \\frac{S_{m}}{m}, \\frac{S_{m+1}}{m+1}$ 成等差数列,\n\n可得 $2 \\cdot \\frac{S_{m}}{m}=\\frac{S_{m-1}}{m-1}+\\frac{S_{m+1}}{m+1}$,\n\n即有 $0=\\frac{-2}{m-1}+\\frac{3}{m+1}$, 解得 $m=5$.\n\n又一解：由等差数列的求和公式可得 $\\frac{1}{2}(m-1) \\quad\\left(a_{1}+a_{m-1}\\right)=-2$,\n\n$\\frac{1}{2} m\\left(a_{1}+a_{m}\\right)=0, \\frac{1}{2}(m+1) \\quad\\left(a_{1}+a_{m+1}\\right)=3$,\n\n可得 $a_{1}=-a_{m},-2 a_{m}+a_{m+1}+a_{m+1}=\\frac{6}{m+1}+\\frac{-4}{m-1}=0$,\n\n解得 $m=5$.\n\n故选: C.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " 【解析】：解题过程类似，得 $\\mathrm{a}_{1}=-2$,\n\n所以 $a_{m}=-2+(m-1) \\cdot 1=-1$, 解得 $m=4$.\n\n故选：B\n所以答案是答案：B\n\n"
+        },
+        {
+            "index": 28,
+            "year": "2013",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "9. （5 分) 设 $\\mathrm{m}$ 为正整数, $(x+y)^{2 m}$ 展开式的二项式系数的最大值为 $a,(x+y$ ) $2 m+1$ 展开式的二项式系数的最大值为 $b$, 若 $13 a=7 b$, 则 $m=(\\quad)$\nA. 5\nB. 6\nC. 7\nD. 8\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "解: $\\because \\mathrm{m}$ 为正整数, 由 $(\\mathrm{x}+\\mathrm{y}){ }^{2 \\mathrm{~m}}$ 展开式的二项式系数的最大值为 $\\mathrm{a}$, 以及二项式系数的性质可得 $a=C_{2 \\pi}^{m}$,\n\n同理, 由 $(x+y)^{2 m+1}$ 展开式的二项式系数的最大值为 $b$, 可得 $b=C_{2 \\pi+1}^{m}=C_{2 \\pi+1}^{m+1}$.\n\n再由 $13 a=7 b$, 可得 ${ }^{13} C_{2 m}^{m}=7 C_{2 \\pi+1}^{m}$, 即 $13 \\times \\frac{(2 \\pi) !}{m ! \\cdot m !}=7 \\times \\frac{(2 \\pi+1) !}{m ! \\cdot(m+1) !}$,\n\n即 $13=7 \\times \\frac{2 \\pi+1}{m+1}$, 即 $13(m+1)=7(2 m+1)$, 解得 $m=6$,\n\n故选: B.\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": " 解: $\\because(x+y)^{2 m}$ 的展开式的二项式系数的最大值为 $a, (x+y)^{2 m+1}$ 的展开式的二项式系数的最大值为 $b$,\n\n$\\therefore a=C_{2 m}^{m}$, $b=C_{2 m+1}^{m+1}$;\n\n又 $\\because 13 a=7 b$,\n\n$\\therefore 13 C_{2 m}^{m}=7 C_{2 m+1}^{m+1}$,\n\n解得 $m=5$.\n\n故选: A.\n所以答案是答案：A\n"
+        },
+        {
+            "index": 29,
+            "year": "2013",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "10. (5 分) 已知椭圆 $E: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1(a>b>0)$ 的右焦点为 $F(3,0)$, 过点 $F$ 的直线交椭圆 $E$ 于 $A 、 B$ 两点. 若 $A B$ 的中点坐标为 $(1,-1)$, 则 $E$ 的方程 为 $(\\quad)$\nA. $\\frac{x^{2}}{45}+\\frac{y^{2}}{36}=1$\nB. $\\frac{x^{2}}{36}+\\frac{y^{2}}{27}=1$\nC. $\\frac{x^{2}}{27}+\\frac{y^{2}}{18}=1$\nD. $\\frac{x^{2}}{18}+\\frac{y^{2}}{9}=1$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解：设 $A\\left(x_{1}, y_{1}\\right), B\\left(x_{2}, y_{2}\\right)$,\n\n代入椭圆方程得 $\\left\\{\\begin{array}{l}\\frac{x_{1}^{2}}{a^{2}}+\\frac{y_{1}^{2}}{b^{2}}=1 \\\\ \\frac{x_{2}^{2}}{a^{2}}+\\frac{y_{2}^{2}}{b^{2}}=1\\end{array}\\right.$,\n\n相减得 $\\frac{x_{1}^{2}-x_{2}^{2}}{a^{2}}+\\frac{y_{1}^{2}-y_{2}^{2}}{b^{2}}=0$ $\\therefore \\frac{x_{1}+x_{2}}{a^{2}}+\\frac{y_{1}-y_{2}}{x_{1}-x_{2}} \\cdot \\frac{y_{1}+y_{2}}{b^{2}}=0$\n\n$\\because x_{1}+x_{2}=2, \\quad y_{1}+y_{2}=-2, \\quad k_{A B}=\\frac{y_{1}-y_{2}}{x_{1}-x_{2}}=\\frac{-1-0}{1-3}=\\frac{1}{2}$\n\n$\\therefore \\frac{2}{a^{2}}+\\frac{1}{2} \\times \\frac{-2}{b^{2}}=0$,\n\n化为 $a^{2}=2 b^{2}$, 又 $c=3=\\sqrt{a^{2}-b^{2}}$, 解得 $a^{2}=18, b^{2}=9$.\n\n$\\therefore$ 椭圆 $E$ 的方程为 $\\frac{x^{2}}{18}+\\frac{y^{2}}{9}=1$.\n\n故选: D.\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": " 【解析】：设右焦点为 $F(3,0)$，则$a=3$，易知椭圆 $E: \\frac{x^{2}}{9}+\\frac{y^{2}}{b^{2}}=1(b>0)$，过点 $F$ 的直线方程为 $y= \\pm \\frac{b}{3}(x-3)$。设$A(x_{1}, y_{1})$，$B(x_{2}, y_{2})$，则$x_{1}+x_{2}=\\frac{6}{b}, y_{1}+y_{2}=-\\frac{2b}{3}$. 由题意得$x_{1}+x_{2}=\\frac{6}{b}=2$，解得$b=3$。所以椭圆的方程为$\\frac{x^{2}}{9}+\\frac{y^{2}}{9}=1$。故选：D。\n所以答案是答案：D\n"
+        },
+        {
+            "index": 30,
+            "year": "2013",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "12. (5 分) 设 $\\triangle A_{n} B_{n} C_{n}$ 的三边长分别为 $a_{n}, b_{n}, c_{n}, \\triangle A_{n} B_{n} C_{n}$ 的面积为 $S_{n}, n=1$ , 2, 3... 若 $b_{1}>c_{1}, b_{1}+c_{1}=2 a_{1}, a_{n+1}=a_{n}, b_{n+1}=\\frac{c_{n}+a_{n}}{2}, c_{n+1}=\\frac{b_{n}+a_{n}}{2}$, 则 ( )\nA. $\\left\\{S_{n}\\right\\}$ 为递减数列\nB. $\\left\\{S_{n}\\right\\}$ 为递增数列 \nC. $\\left\\{S_{2 n-1}\\right\\}$ 为递增数列, $\\left\\{S_{2 n}\\right\\}$ 为递减数列\nD. $\\left\\{S_{2 n-1}\\right\\}$ 为递减数列, $\\left\\{S_{2 n}\\right\\}$ 为递增数列\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "解: $b_{1}=2 a_{1}-c_{1}$ 且 $b_{1}>c_{1}, \\quad \\therefore 2 a_{1}-c_{1}>c_{1}, \\quad \\therefore a_{1}>c_{1}$,\n\n$\\therefore b_{1}-a_{1}=2 a_{1}-c_{1}-a_{1}=a_{1}-c_{1}>0, \\quad \\therefore b_{1}>a_{1}>c_{1}$,\n\n又 $\\mathrm{b}_{1}-\\mathrm{c}_{1}<\\mathrm{a}_{1}, \\quad \\therefore 2 \\mathrm{a}_{1}-\\mathrm{c}_{1}-\\mathrm{c}_{1}<\\mathrm{a}_{1}, \\therefore 2 \\mathrm{c}_{1}>\\mathrm{a}_{1}, \\therefore \\mathrm{c}_{1}>\\frac{\\mathrm{a}_{1}}{2}$,\n\n由题意, $b_{n+1}+c_{n+1}=\\frac{b_{n}+c_{n}}{2}+a_{n}, \\therefore b_{n+1}+c_{n+1}-2 a_{n}=\\frac{1}{2}\\left(b_{n}+c_{n}-2 a_{n}\\right)$,\n\n$\\therefore b_{n}+c_{n}-2 a_{n}=0, \\quad \\therefore b_{n}+c_{n}=2 a_{n}=2 a_{1}, \\quad \\therefore b_{n}+c_{n}=2 a_{1}$,\n\n由此可知顶点 $A_{n}$ 在以 $B_{n} 、 C_{n}$ 为焦点的椭圆上,\n\n又由题意, $b_{n+1}-c_{n+1}=\\frac{c_{n}-b_{n}}{2}, \\quad \\therefore b_{n+1}-\\left(2 a_{1}-b_{n+1}\\right)=\\frac{2 a_{1}-b_{n}-b_{n}}{2}=a_{1}-b_{n}$,\n\n$\\therefore b_{n+1}-a_{1}=\\frac{1}{2}\\left(a_{1}-b_{n}\\right), \\quad \\therefore b_{n}-a_{1}=\\left(-\\frac{1}{2}\\right)^{n-1}$,\n\n$\\therefore b_{n}=a_{1}+\\left(b_{1}-a_{1}\\right)\\left(-\\frac{1}{2}\\right)^{n-1}, c_{n}=2 a_{1}-b_{n}=a_{1}-\\left(b_{1}-a_{1}\\right)\\left(-\\frac{1}{2}\\right)^{n-1}$,\n\n$\\therefore$\n\n$S_{n}^{2}=\\frac{3 a_{1}}{2}\\left(\\frac{3 a_{1}}{2}-a_{1}\\right)\\left[\\frac{3 a_{1}}{2}-a_{1}-\\left(b_{1}-a_{1}\\right)\\left(-\\frac{1}{2}\\right)^{r-1}\\right][$ $\\left.\\frac{3 a_{1}}{2}-a_{1}+\\left(b_{1}-a_{1}\\right)\\left(-\\frac{1}{2}\\right)^{r-1}\\right]$\n\n$=\\frac{3}{4} a_{1}^{2}\\left[\\frac{a_{1}^{2}}{2}-\\left(\\frac{1}{4}\\right)^{n-1}\\left(b_{1}-a_{1}\\right)^{2}\\right]$ 单调递增（可证当 $n=1$ 时 $\\frac{a_{1}^{2}}{4}-\\left(b_{1}-a_{1}\\right)^{2}>0$\n\n故选: B.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": "  B"
+        },
+        {
+            "index": 31,
+            "year": "2013",
+            "category": "（新课标ⅱ）",
+            "score": 5,
+            "question": "1. （5 分）已知集合 $M=\\left\\{x \\mid(x-1)^{2}<4, x \\in R\\right\\}, N=\\{-1,0,1,2,3\\}$, 则 $M$ $\\cap N=(\\quad)$\nA. $\\{0,1,2\\}$\nB. $\\{-1,0,1,2\\}$\nC. $\\{-1,0,2,3\\}$\nD. $\\{0,1,2,3\\}$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "解: 由 $(x-1)^{2}<4$, 解得: $-1<x<3$, 即 $M=\\{x \\mid-1<x<3\\}$,\n\n$\\because N=\\{-1,0,1,2,3\\}$,\n\n$\\therefore M \\cap N=\\{0,1,2\\}$.\n\n故选: A.\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": " 【解析】：解: $\\because$ 集合 $M=\\left\\{x \\mid(x-1)^{2}<4, x \\in R\\right\\}=\\{x \\mid-1<x<3\\}$,\n\n$\\therefore M \\cap N=\\{0,1,2\\}$,\n\n故选: A.\n所以答案是答案：A\n"
+        },
+        {
+            "index": 32,
+            "year": "2013",
+            "category": "（新课标ⅱ）",
+            "score": 5,
+            "question": "2. （5 分）设复数 $z$ 满足 $(1-i) z=2 i$, 则 $z=(\\quad)$\nA. $-1+i$\nB. $-1-i$\nC. $1+i$\nD. 1- $\\mathrm{i}$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "解: $\\because$ 复数 $z$ 满足 $z(1-\\mathrm{i})=2 \\mathrm{i}$,\n\n$\\therefore z=\\frac{2 i}{1-i}=\\frac{2 i(1+i)}{(1-i)(1+i)}=-1+i$\n\n故选: A.\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": " 解: 因为 $(1-i)z=2i$, 所以 $(1+i)(1-i)z=2i*(1+i)$, $z=\\frac{2+2 i}{3}=1+\\mathrm{i}$\n\n故选: C.\n所以答案是答案：C\n"
+        },
+        {
+            "index": 33,
+            "year": "2013",
+            "category": "（新课标ⅱ）",
+            "score": 5,
+            "question": "3. (5 分) 等比数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 已知 $S_{3}=a_{2}+10 a_{1}, a_{5}=9$, 则 $a_{1}=(\\quad)$\nA. $\\frac{1}{3}$\nB. $-\\frac{1}{3}$\nC. $\\frac{1}{9}$\nD. $-\\frac{1}{9}$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "解：设等比数列 $\\left\\{a_{n}\\right\\}$ 的公比为 $q$,\n\n$\\because s_{3}=a_{2}+10 a_{1}, a_{5}=9$\n\n$\\therefore\\left\\{\\begin{array}{l}a_{1}+a_{1} q+a_{1} q^{2}=a_{1} q+10 a_{1} \\\\ a_{1} q^{4}=9\\end{array}\\right.$, 解得 $\\left\\{\\begin{array}{l}q^{2}=9 \\\\ a_{1}=\\frac{1}{9}\\end{array}\\right.$.\n\n$\\therefore a_{1}=\\frac{1}{9}$.\n\n故选: C.\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": "  解: $\\because S_{3}=a_{1}+a_{2}+a_{3}=a_{2}+10 a_{1}, a_{5}=9$,\n\n$\\therefore a_{1}(1+10 q^{4})=9(1+q^{3})$\n\n$\\therefore q^{4}+10 q^{3}-8=0$\n\n$\\therefore q^{3}=2$, 即 $\\left\\{\\begin{array}{l}a_{1}=a_{1} q^{2}=1 \\\\ q=2\\end{array}\\right.$,\n\n$\\therefore a_{1}=1$.\n\n故选：A.\n所以答案是答案：A\n"
+        },
+        {
+            "index": 34,
+            "year": "2013",
+            "category": "（新课标ⅱ）",
+            "score": 5,
+            "question": "4. (5 分) 已知 $m, n$ 为异面直线, $m \\perp$ 平面 $\\alpha, n \\perp$ 平面 $\\beta$. 直线 $\\mid$ 满足 $\\mid \\perp m$, $\\mathrm{I} \\perp \\mathrm{n},|\\not \\subset \\alpha,| \\not \\subset \\beta$, 则 $(\\quad)$\nA. $\\alpha / / \\beta$ 且 $\\mid / / \\alpha$\nB. $\\alpha \\perp \\beta$ 且 $l \\perp \\beta$\nC. $\\alpha$ 与 $\\beta$ 相交, 且交线垂直于।\nD. $\\alpha$ 与 $\\beta$ 相交, 且 交线平行于।\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解: 由 $m \\perp$ 平面 $\\alpha$, 直线 $\\mid$ 满足 $\\mid \\perp m$, 且 $\\mid \\subset \\alpha$, 所以 $\\mid / / \\alpha$,\n\n又 $n \\perp$ 平面 $\\beta, 1 \\perp n, \\mid \\not \\subset \\beta$, 所以 $I / / \\beta$.\n\n由直线 $m, n$ 为异面直线, 且 $m \\perp$ 平面 $\\alpha, n \\perp$ 平面 $\\beta$, 则 $\\alpha$ 与 $\\beta$ 相交, 否则,\n\n若 $\\alpha / / \\beta$ 则推出 $m / / n$,\n\n与 $m, n$ 异面矛盾.\n\n故 $\\alpha$ 与 $\\beta$ 相交, 且交线平行于 1 .\n\n故选: D.\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": " D"
+        },
+        {
+            "index": 35,
+            "year": "2013",
+            "category": "（新课标ⅱ）",
+            "score": 5,
+            "question": "5. (5 分) 已知 $(1+\\mathrm{ax})(1+\\mathrm{x}){ }^{5}$ 的展开式中 $\\mathrm{x}^{2}$ 的系数为 5 , 则 $a=(\\quad)$\nA. -4\nB. -3\nC. -2\nD. -1\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解: 已知 $(1+a x)(1+x)^{5}=(1+a x)\\left(1+C_{5}^{1} x+C_{5}^{2} x^{2}+C_{5}^{3} x^{3}+C_{5}^{4} x^{4}+C_{5}^{5} x^{5}\\right)$ 展开式中 $x^{2}$ 的系数为 $C_{5}^{2+} a \\cdot C_{5}^{1}=5$, 解得 $a=-1$,\n\n故选: D.\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": " 解: 已知 $(1+ax)(1+x)^{5}=(1+ax)\\left(1+C_{5}^{1} x+C_{5}^{2} x^{2}+C_{5}^{3} x^{3}+C_{5}^{4} x^{4}+C_{5}^{5} x^{5}\\right)$ 展开式中 $x^{2}$ 的系数为 $C_{5}^{2}+a \\cdot C_{5}^{1}=5$, 解得 $a=-1$.\n故选: D.\n所以答案是答案：D\n"
+        },
+        {
+            "index": 36,
+            "year": "2013",
+            "category": "（新课标ⅱ）",
+            "score": 5,
+            "question": "8. （5 分） 设 $a=\\log _{3} 6, b=\\log _{5} 10, c=\\log _{7} 14$, 则（ ）\nA. $c>b>a$\nB. $b>c>a$\nC. $a>c>b$\nD. $a>b>c$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解: 因为 $a=\\log _{3} 6=1+\\log _{3} 2, b=\\log _{5} 10=1+\\log _{5} 2, c=\\log _{7} 14=1+\\log _{7} 2$, 因为 $y=\\log _{2} x$ 是增函数, 所以 $\\log _{2} 7>\\log _{2} 5>\\log _{2} 3$,\n\n$\\because \\log _{2} 7=\\frac{1}{\\log _{7} 2}, \\log _{2} 5=\\frac{1}{\\log _{5} 2}, \\log _{2} 3=\\frac{1}{\\log _{3} 2}$\n\n所以 $\\log _{3} 2>\\log _{5} 2>\\log _{7} 2$,\n\n所以 $a>b>c$,\n\n故选: D.\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": " 【解析】：解: 因为 $a=\\log _{3} 6=1+\\log _{3} 2$, $b=\\log _{5} 10=1+\\log _{5} 2$, $c=\\log _{7} 14=1+\\log _{7} 2$, 按照对数函数的特性，我们可以得出，\n\n所以 $c>b>a$,\n\n故选: A.\n所以答案是答案：A\n"
+        },
+        {
+            "index": 37,
+            "year": "2014",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "1. （5 分）已知集合 $A=\\left\\{x \\mid x^{2}-2 x-3 \\geqslant 0\\right\\}, B=\\{x \\mid-2 \\leqslant x<2\\}$, 则 $A \\cap B=(\\quad)$\nA. $[1,2)$\nB. $[-1,1]$\nC. $[-1,2)$\nD. $[-2,-1]$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解: 由 $\\mathrm{A}$ 中不等式变形得: $(x-3)(x+1) \\geqslant 0$,\n\n解得: $x \\geqslant 3$ 或 $x \\leqslant-1$, 即 $A=(-\\infty,-1] \\cup[3,+\\infty)$,\n\n$\\because B=[-2,2)$,\n\n$\\therefore A \\cap B=[-2,-1]$.\n\n故选：D.\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": " 解: 由 $x^{2}-2 x-3 \\geqslant 0$解得$x \\leqslant -1$ 或$x \\geqslant 3$, 即 $A=(-\\infty,-1] \\cup[3,+\\infty)$,\n$B=[-2,2)$,\n$\\therefore A \\cap B=[-2,-1]$.\n故选：D.\n所以答案是答案：D\n"
+        },
+        {
+            "index": 38,
+            "year": "2014",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "2. (5 分 $) \\frac{(1+i)^{3}}{(1-i)^{2}}=(\\quad)$\nA. $1+i$\nB. $1-\\mathrm{i}$\nC. $-1+i$\nD. $-1-i$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解: $\\frac{(1+i)^{3}}{(1-i)^{2}}=\\frac{2 i(1+i)}{-2 i}=-\\quad(1+i)=-1-i$, 故选：D.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " 解: $\\frac{(1+i)^{3}}{(1-i)^{2}}=\\frac{-2i(1+i)}{-2i}=1-\\mathrm{i}$,\n\n故选：B.\n所以答案是答案：B\n"
+        },
+        {
+            "index": 39,
+            "year": "2014",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "3. （5 分) 设函数 $f(x), g(x)$ 的定义域都为 $R$, 且 $f(x)$ 是奇函数, $g(x)$ 是偶函数，则下列结论正确的是（ ）\nA. $f(x) \\bullet g(x)$ 是偶函数\nB. $|f(x)| \\bullet g(x)$ 是奇函数\nC. $f(x) \\bullet|g(x)|$ 是奇函数\nD. $|f(x) \\cdot g(x)|$ 是奇函数\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "解: $\\because \\mathrm{f}(\\mathrm{x})$ 是奇函数, $\\mathrm{g}(\\mathrm{x})$ 是偶函数,\n\n$\\therefore f(-\\mathrm{x})=-\\mathrm{f}(\\mathrm{x}), g(-\\mathrm{x})=\\mathrm{g}(\\mathrm{x})$,\n\n$f(-x) \\cdot g(-x)=-f(x) \\cdot g(x)$, 故函数是奇函数, 故 $A$ 错误,\n\n$|f(-x)| \\cdot g(-x)=|f(x)| \\cdot g(x)$ 为偶函数, 故 B 错误,\n\n$f(-x) \\cdot \\lg (-x)|=-f(x) \\cdot| g(x) \\mid$ 是奇函数, 故 C 正确.\n\n$|f(-x) \\cdot g(-x)|=|f(x) \\cdot g(x)|$ 为偶函数, 故 $D$ 错误,\n\n故选：C.\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": " 【解析】：解: $A$, $f(-x) \\cdot g(-x) = f(x) \\cdot g(x)$, 故 $f(-x) \\cdot g(-x)$ 是偶函数, 故 $A$ 错误;\nB, $|f(-x)| \\cdot g(-x) = |f(x)| \\cdot g(x)$, 故 $|f(-x)| \\cdot g(-x)$ 是偶函数, 故 $B$ 错误;\nC, $f(-x) \\cdot |g(-x)| = f(x) \\cdot |g(x)|$, 故 $f(-x) \\cdot |g(-x)|$ 是奇函数, 故 $C$ 正确;\nD, $|f(-x) \\cdot g(-x)| = |f(x) \\cdot g(x)|$, 故 $D$ 错误;\n故选: C.\n所以答案是答案：C\n"
+        },
+        {
+            "index": 40,
+            "year": "2014",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "4. (5 分) 已知 $F$ 为双曲线 $C: x^{2}-m y^{2}=3 m(m>0)$ 的一个焦点, 则点 $F$ 到 $C$ 的一条渐近线的距离为（）\nA. $\\sqrt{3}$\nB. 3\nC. $\\sqrt{3} m$\nD. $3 m$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "解：双曲线 $c: x^{2}-m y^{2}=3 m(m>0)$ 可化为 $\\frac{x^{2}}{3 m}-\\frac{y^{2}}{3}=1$,\n\n$\\therefore$ 一个焦点为 $(\\sqrt{3 \\pi+3}, 0)$, 一条渐近线方程为 $x+\\sqrt{m} y=0$,\n\n$\\therefore$ 点 $\\mathrm{F}$ 到 $\\mathrm{C}$ 的一条渐近线的距离为 $\\frac{\\sqrt{3 \\pi+3}}{\\sqrt{1+\\mathrm{m}}}=\\sqrt{3}$.\n\n故选: $A$.\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": " 【解析】：解: $\\because$ 双曲线 $C: x^{2}-m y^{2}=3 m(m>0)$,\n\n$\\therefore F(2, 0)$,\n\n$\\therefore$ 点 $F$ 到 $C$ 的一条渐近线的方程为: $y= \\pm \\frac{x}{2}$,\n\n即 $x=2$ ,\n\n$\\therefore$ 点 $F$ 到 $C$ 的一条渐近线的距离为: $\\frac{|2|}{\\sqrt{2}}=2 \\sqrt{2}$.\n\n故选: D.\n所以答案是答案：D\n"
+        },
+        {
+            "index": 41,
+            "year": "2014",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "5. （5 分） 4 位同学各自在周六、周日两天中任选一天参加公益活动, 则周六、 周日都有同学参加公益活动的概率为（）\nA. $\\frac{1}{8}$\nB. $\\frac{3}{8}$\nC. $\\frac{5}{8}$\nD. $\\frac{7}{8}$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解：4 位同学各自在周六、周日两天中任选一天参加公益活动, 共有 $2^{4}=16$ 种情况,\n\n周六、周日都有同学参加公益活动, 共有 $2^{4}-2=16-2=14$ 种情况,\n\n$\\therefore$ 所求概率为 $\\frac{14}{16}=\\frac{7}{8}$.\n\n故选: D.\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": " 【解析】：解: 4 位同学各自在周六、周日两天中任选一天参加公益活动, 共有 $2^{4}=16$ 种情况,\n周六、周日都有同学参加公益活动, 共有 $2^{4}-2=16-2=14$ 种情况,\n$\\therefore$ 所求概率为 $\\frac{14}{16}=\\frac{7}{8}$.\n故选: D.\n所以答案是答案：D\n"
+        },
+        {
+            "index": 42,
+            "year": "2014",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "8. （5 分) 设 $\\alpha \\in\\left(0, \\frac{\\pi}{2}\\right), \\beta \\in\\left(0, \\frac{\\pi}{2}\\right)$, 且 $\\tan \\alpha=\\frac{1+\\sin \\beta}{\\cos \\beta}$, 则（）\nA. $3 \\alpha-\\beta=\\frac{\\pi}{2}$\nB. $3 \\alpha+\\beta=\\frac{\\pi}{2}$\nC. $2 \\alpha-\\beta=\\frac{\\pi}{2}$\nD. $2 \\alpha+\\beta=\\frac{\\pi}{2}$\n",
+            "standard_answer": [
+                "C"
+            ],
+            "analysis": "解：由 $\\tan \\alpha=\\frac{1+\\sin \\beta}{\\cos \\beta}$, 得:\n\n$\\frac{\\sin \\alpha}{\\cos \\alpha}=\\frac{1+\\sin \\beta}{\\cos \\beta}$\n\n即 $\\sin \\alpha \\cos \\beta=\\cos \\alpha \\sin \\beta+\\cos \\alpha$ ，\n\n$\\sin (\\alpha-\\beta)=\\cos \\alpha=\\sin \\left(\\frac{\\pi}{2}-\\alpha\\right)$,\n\n$\\because \\alpha \\in\\left(0, \\frac{\\pi}{2}\\right), \\beta \\in\\left(0, \\frac{\\pi}{2}\\right)$,\n\n$\\therefore$ 当 $2 \\alpha-\\beta=\\frac{\\pi}{2}$ 时, $\\sin (\\alpha-\\beta)=\\sin \\left(\\frac{\\pi}{2}-\\alpha\\right)=\\cos \\alpha$ 成立.\n\n故选: C.\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": " 解: $\\because \\alpha \\in\\left(0, \\frac{\\pi}{2}\\right), \\beta \\in\\left(0, \\frac{\\pi}{2}\\right)$,\n$\\therefore \\tan \\alpha=\\frac{\\sin \\alpha}{\\cos \\alpha}$, $\\therefore \\frac{1+\\sin \\beta}{\\cos \\beta}=\\frac{\\sin \\alpha}{\\cos \\alpha}$,\n解得 $3 \\alpha-\\beta=\\frac{\\pi}{2}$, 故选: A。\n所以答案是答案：A\n"
+        },
+        {
+            "index": 43,
+            "year": "2014",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "10. (5 分) 已知抛物线 $C: y^{2}=8 x$ 的焦点为 $F$, 准线为 $I, P$ 是 $I$ 上一点, $Q$ 是直 线 $P F$ 与 $C$ 的一个交点, 若 $\\overrightarrow{F P}=4 \\overrightarrow{F Q}$, 则 $|Q F|=(\\quad)$\nA. $\\frac{7}{2}$\nB. 3\nC. $\\frac{5}{2}$\nD. 2\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "解：设 $Q$ 到 $I$ 的距离为 $d$, 则 $|Q F|=d$,\n\n$\\because \\overrightarrow{\\mathrm{FP}}=4 \\overrightarrow{\\mathrm{F} 0}$\n\n$\\therefore|P Q|=3 d$\n\n$\\therefore$ 不妨设直线 $P F$ 的斜率为 $-\\frac{2 \\sqrt{2} \\mathrm{~d}}{\\mathrm{~d}}=-2 \\sqrt{2}$,\n\n$\\because F(2,0)$,\n\n$\\therefore$ 直线 $P F$ 的方程为 $y=-2 \\sqrt{2}(x-2)$,\n\n与 $y^{2}=8 x$ 联立可得 $x=1$,\n\n$\\therefore|Q F|=d=1+2=3$,\n\n故选：B.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " 【解析】：解：抛物线 $c: y^{2}=8 x$ 的焦点为 $F(\\frac{1}{2},0)$, 准线为 $l: x=-2$,\n\n$\\because \\overrightarrow{F P}=4 \\overrightarrow{F Q}$,\n\n$\\therefore P(2,4)$,\n\n$\\therefore Q$ 是直线 $l$ 与 $C$ 的一个交点,\n\n$\\therefore Q(\\frac{1}{2},2)$,\n\n$\\therefore|QF|=\\sqrt{\\left(\\frac{1}{2}-2\\right)^{2}+\\left(2-4\\right)^{2}}=3$\n\n故选: B.\n所以答案是答案：B\n"
+        },
+        {
+            "index": 44,
+            "year": "2014",
+            "category": "（新课标ⅰ）",
+            "score": 5,
+            "question": "11. （5 分) 已知函数 $f(x)=a x^{3}-3 x^{2}+1$, 若 $f(x)$ 存在唯一的零点 $x_{0}$, 且 $x_{0}>$ 0 , 则实数 a 的取值范围是（ $)$\nA. $(1,+\\infty)$\nB. $(2,+\\infty)$\nC. $(-\\infty,-1)$\nD. $(-\\infty,-2)$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解: $\\because f(x)=a x^{3}-3 x^{2}+1$,\n\n$\\therefore f^{\\prime}(x)=3 a x^{2}-6 x=3 x(a x-2), f(0)=1$;\n\n(1)当 $a=0$ 时, $f(x)=-3 x^{2}+1$ 有两个零点, 不成立; (2)当 $a>0$ 时, $f(x)=a x^{3}-3 x^{2}+1$ 在 $(-\\infty, 0)$ 上有零点, 故不成立;\n\n(3)当 $a<0$ 时, $f(x)=a x^{3}-3 x^{2}+1$ 在 $(0,+\\infty)$ 上有且只有一个零点;\n\n故 $f(x)=a x^{3}-3 x^{2}+1$ 在 $(-\\infty, 0)$ 上没有零点;\n\n而当 $x=\\frac{2}{a}$ 时, $f(x)=a x^{3}-3 x^{2}+1$ 在 $(-\\infty, 0)$ 上取得最小值;\n\n故 $f\\left(\\frac{2}{a}\\right)=\\frac{8}{a^{2}}-3 \\cdot \\frac{4}{a^{2}}+1>0$;\n\n故 $a<-2$;\n\n综上所述，\n\n实数 $\\mathrm{a}$ 的取值范围是 $(-\\infty,-2)$;\n\n故选: D.\n",
+            "model_answer": [
+                "D"
+            ],
+            "model_output": " D"
+        },
+        {
+            "index": 45,
+            "year": "2014",
+            "category": "（新课标ⅱ）",
+            "score": 5,
+            "question": "1. （5 分）设集合 $M=\\{0,1,2\\}, N=\\left\\{x \\mid x^{2}-3 x+2 \\leqslant 0\\right\\}$, 则 $M \\cap N=(\\quad)$\nA. $\\{1\\}$\nB. $\\{2\\}$\nC. $\\{0,1\\}$\nD. $\\{1,2\\}$\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解: $\\left.\\because N=\\left\\{x \\mid x^{2}-3 x+2 \\leqslant 0\\right\\}=\\{x \\mid （ x-1) \\quad(x-2) \\leqslant 0\\right\\}=\\{x \\mid 1 \\leqslant x \\leqslant 2\\}$,\n\n$\\therefore M \\cap N=\\{1,2\\}$,\n\n故选: D.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " 【解析】：解: $\\because N=\\left\\{x \\mid x^{2}-3 x+2 \\leqslant 0\\right\\}=\\{x \\mid （ x-1) \\quad(x-2) \\leqslant 0\\right\\}=\\{x \\mid 1 \\leqslant x \\leqslant 2\\}$,\n\n$\\therefore M \\cap N=\\{2\\}$,\n\n故选: B.\n所以答案是答案：B\n"
+        },
+        {
+            "index": 46,
+            "year": "2014",
+            "category": "（新课标ⅱ）",
+            "score": 5,
+            "question": "2. (5 分) 设复数 $z_{1}, z_{2}$ 在复平面内的对应点关于虚轴对称, $z_{1}=2+i$, 则 $z_{1} z_{2}=$\nA. -5\nB. 5\nC. $-4+i$\nD. $-4-i$\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "解： $z_{1}=2+i$ 对应的点的坐标为 $(2,1)$,\n\n$\\because$ 复数 $z_{1}, z_{2}$ 在复平面内的对应点关于虚轴对称,\n\n$\\therefore(2,1)$ 关于虚轴对称的点的坐标为 $(-2,1)$,\n\n则对应的复数, $z_{2}=-2+i$, 则 $z_{1} z_{2}=(2+i)(-2+i)=i^{2}-4=-1-4=-5$,\n\n故选: A.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " 【解析】：解: 由于复数 $z_{1}, z_{2}$ 在复平面内的对应点关于虚轴对称, $z_{1}=2+i$, 则 $z_{1} z_{2}=((2+i)(2-i))=4-1=3$, 故选：B.\n所以答案是答案：B\n"
+        },
+        {
+            "index": 47,
+            "year": "2014",
+            "category": "（新课标ⅱ）",
+            "score": 5,
+            "question": "3. (5 分) 设向量 $\\vec{a}, \\vec{b}$ 满足 $|\\vec{a}+\\vec{b}|=\\sqrt{10},|\\vec{a}-\\vec{b}|=\\sqrt{6}$, 则 $\\vec{a} \\bullet \\vec{b}=(\\quad)$\nA. 1\nB. 2\nC. 3\nD. 5\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "解: $\\because|\\vec{a}+\\vec{b}|=\\sqrt{10},|\\vec{a}-\\vec{b}|=\\sqrt{6}$,\n\n$\\therefore$ 分别平方得 $\\vec{a}^{2}+2 \\vec{a} \\bullet \\vec{b}+\\vec{b}^{2}=10, \\vec{a}^{2}-2 \\vec{a} \\bullet \\vec{b}+\\vec{b}^{2}=6$,\n\n两式相减得 $4 \\vec{a} \\bullet \\vec{b}=10-6=4$,\n\n即 $\\vec{a} \\cdot \\vec{b}=1$,\n\n故选: A.\n",
+            "model_answer": [
+                "C"
+            ],
+            "model_output": " 解析: 同理，根据向量的平方可以得到等式 $\\vec{a} \\cdot \\vec{b}= \\frac{|\\vec{a}+\\vec{b}|^2 - |\\vec{a}-\\vec{b}|^2}{4} = 3$.\n所以答案是答案：C \n"
+        },
+        {
+            "index": 48,
+            "year": "2014",
+            "category": "（新课标ⅱ）",
+            "score": 5,
+            "question": "4. (5 分) 钝角三角形 $A B C$ 的面积是 $\\frac{1}{2}, A B=1, B C=\\sqrt{2}$, 则 $A C=(\\quad)$\nA. 5\nB. $\\sqrt{5}$\nC. 2\nD. 1\n",
+            "standard_answer": [
+                "B"
+            ],
+            "analysis": "解: $\\because$ 针角三角形 $A B C$ 的面积是 $\\frac{1}{2}, A B=c=1, B C=a=\\sqrt{2}$, $\\therefore S=\\frac{1}{2} \\operatorname{acsin} B=\\frac{1}{2}$, 即 $\\sin B=\\frac{\\sqrt{2}}{2}$,\n\n当 $B$ 为针角时, $\\cos B=-\\sqrt{1-\\sin ^{2} B}=-\\frac{\\sqrt{2}}{2}$,\n\n利用余弦定理得: $A C^{2}=A B^{2}+B C^{2}-2 A B \\cdot B C \\cdot \\cos B=1+2+2=5$, 即 $A C=\\sqrt{5}$,\n\n当 $B$ 为锐角时, $\\cos B=\\sqrt{1-\\sin ^{2} B}=\\frac{\\sqrt{2}}{2}$,\n\n利用余弦定理得: $A C^{2}=A B^{2}+B C^{2}-2 A B \\cdot B C \\cdot \\cos B=1+2-2=1$, 即 $A C=1$,\n\n此时 $A B^{2}+A C^{2}=B C^{2}$, 即 $\\triangle A B C$ 为直角三角形, 不合题意, 舍去,\n\n则 $A C=\\sqrt{5}$.\n\n故选: B.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " 【解析】：解: $\\because A B=1, B C=\\sqrt{2}$, \n\n$\\therefore A C=\\sqrt{A B^{2}+B C^{2}-2 A B \\cdot B C \\cos A}=\\sqrt{1+2-2 \\times 1 \\times \\sqrt{2} \\times \\frac{\\sqrt{2}}{2}}=\\sqrt{5}$.\n\n故选: B.\n所以答案是答案：B\n"
+        },
+        {
+            "index": 49,
+            "year": "2014",
+            "category": "（新课标ⅱ）",
+            "score": 5,
+            "question": "5.（5 分）某地区空气质量监测资料表明,一天的空气质量为优良的概率是 0.75 , 连续两天为优良的概率是 0.6 , 已知某天的空气质量为优良, 则随后一天的 空气质量为优良的概率是（ $)$\nA. 0.8\nB. 0.75\nC. 0.6\nD. 0.45\n",
+            "standard_answer": [
+                "A"
+            ],
+            "analysis": "解：设随后一天的空气质量为优良的概率为 $p$, 则由题意可得 $0.75 \\times$ $p=0.6$,\n\n解得 $p=0.8$,\n\n故选: A.\n",
+            "model_answer": [
+                "A"
+            ],
+            "model_output": " 【解析】：设随后一天的空气质量为优良的概率为 p, 则有0.75 * p = 0.6, 解得 p=0.8,故选: A.\n所以答案是答案：A\n"
+        },
+        {
+            "index": 50,
+            "year": "2014",
+            "category": "（新课标ⅱ）",
+            "score": 5,
+            "question": "8. (5 分) 设曲线 $y=a x-\\ln (x+1)$ 在点 $(0,0)$ 处的切线方程为 $y=2 x$, 则 $a=($\nA. 0\nB. 1\nC. 2\nD. 3\n",
+            "standard_answer": [
+                "D"
+            ],
+            "analysis": "解: $y^{\\prime}=a \\frac{1}{x+1}$,\n\n$\\therefore y^{\\prime}(0)=a-1=2$\n\n$\\therefore a=3$.\n\n故选: D.\n",
+            "model_answer": [
+                "B"
+            ],
+            "model_output": " 【解析】：解: $\\because y=a x-\\ln (x+1), \\therefore y^{\\prime}=a- \\dfrac{1}{x+1}$.\n\n当 $x=0$, 则 $y^{\\prime}|_{x=0}=a-1=-2$,\n\n$\\therefore a=1$;\n\n故选: B.\n所以答案是答案：B\n"
+        }
+    ]
+}

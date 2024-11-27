@@ -1,9 +1,9 @@
 {
     "model_name": "TeleChat",
-    "total_score": 2160.0,
-    "correct_score": 1265.0,
-    "question_num": 432.0,
-    "scoring_rate": 0.586,
+    "total_score": 765.0,
+    "correct_score": 345.0,
+    "question_num": 102.0,
+    "scoring_rate": 0.451,
     "subject": {
         "English": {
             "total_score": 0.0,
@@ -38,22 +38,22 @@
             }
         },
         "Math": {
-            "total_score": 2160.0,
-            "correct_score": 1265.0,
-            "scoring_rate": 0.586,
-            "question_num": 432.0,
+            "total_score": 765.0,
+            "correct_score": 345.0,
+            "scoring_rate": 0.451,
+            "question_num": 102.0,
             "type": {
-                "2010-2022_Math_I_MCQs": {
-                    "total_score": 1070.0,
-                    "correct_score": 595.0,
-                    "question_num": 214.0,
-                    "scoring_rate": 0.556
+                "gaoshu_math": {
+                    "total_score": 510.0,
+                    "correct_score": 210.0,
+                    "question_num": 51.0,
+                    "scoring_rate": 0.412
                 },
-                "2010-2022_Math_II_MCQs": {
-                    "total_score": 1090.0,
-                    "correct_score": 670.0,
-                    "question_num": 218.0,
-                    "scoring_rate": 0.615
+                "gaokao_math": {
+                    "total_score": 255.0,
+                    "correct_score": 135.0,
+                    "question_num": 51.0,
+                    "scoring_rate": 0.529
                 }
             }
         },
